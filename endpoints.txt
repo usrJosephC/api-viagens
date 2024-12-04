@@ -1,0 +1,17 @@
+post /destinos:
+{
+  "photo": "https://s2.glbimg.com/1NqTrdukaHaNY2ZGKqaSkb2dnO4=/e.glbimg.com/og/ed/f/original/2021/08/02/gettyimages-1208124099.jpg",
+  "location": "Tóquio, Japão",
+  "price": 200.0
+}
+
+post /depoimentos:
+{
+  "photo": "https://i.pinimg.com/originals/05/76/ae/0576ae28c7e32626c05e237336eac5df.png",
+  "name": "Mariana",
+  "content": "Os destinos foram incríveis e a organização impecável."
+}
+
+get /depoimentos // /destinos
+
+del /depoimentos/:id // /destinos /:id
