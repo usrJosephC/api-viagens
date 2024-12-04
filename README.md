@@ -46,7 +46,7 @@ cd api-viagens
 
 ## 🗂️ Estrutura do Projeto
 
-.
+```bash
 ├── controllers # Lógica dos endpoints
 │ ├── destination_controller.go
 │ ├── testimony_controller.go
@@ -59,7 +59,7 @@ cd api-viagens
 ├── Dockerfile # Configuração do container
 ├── docker-compose.yml # Orquestração dos containers
 └── README.md # Documentação do projeto
-
+```
 ## 📌 Melhorias Futuras
 1. Adicionar autenticação (ex.: JWT) para proteger endpoints.
 2. Configurar suporte a bancos de dados externos (ex.: PostgreSQL, MySQL).
