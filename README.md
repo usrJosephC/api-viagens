@@ -5,10 +5,10 @@ Esta é uma API RESTful desenvolvida em **Go** para um sistema de viagens. A API
 ---
 
 <p align="center">
-  <a href="#️-tecnologias-utilizadasgias">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-configurar-e-executar-o-projeto-projeto">Como Configurar e Executar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#️-estrutura-do-projeto">Estrutura do Projeto</a>
-  <a href="#-melhorias-futuras">Melhorias Futuras</a>
+  <a href="#️-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-configurar-e-executar-o-projeto">Como Configurar e Executar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#️-estrutura-do-projeto">Estrutura do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-melhorias-futuras">Melhorias Futuras</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -46,7 +46,7 @@ cd api-viagens
 
 ## 🗂️ Estrutura do Projeto
 
-.
+```bash
 ├── controllers # Lógica dos endpoints
 │ ├── destination_controller.go
 │ ├── testimony_controller.go
@@ -59,7 +59,7 @@ cd api-viagens
 ├── Dockerfile # Configuração do container
 ├── docker-compose.yml # Orquestração dos containers
 └── README.md # Documentação do projeto
-
+```
 ## 📌 Melhorias Futuras
 1. Adicionar autenticação (ex.: JWT) para proteger endpoints.
 2. Configurar suporte a bancos de dados externos (ex.: PostgreSQL, MySQL).
@@ -68,3 +68,7 @@ cd api-viagens
 
 ### 🤝 Contribuição
 Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto. Feedbacks são bem-vindos!
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
