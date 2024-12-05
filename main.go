@@ -29,7 +29,7 @@ func main() {
 	var err error
 	databasePath := os.Getenv("DATABASE_PATH")
 	if databasePath == "" {
-		databasePath = "./data/travel.db" // Caminho padrão
+		databasePath = "./data/travel.db"
 	}
 
 	DB, err = gorm.Open(sqlite.Open(databasePath), &gorm.Config{})
